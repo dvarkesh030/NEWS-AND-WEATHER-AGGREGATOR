@@ -11,22 +11,30 @@
 <body>
 
 
-
 <div class="row" style="background-color: black;;padding-bottom: 1%;">
 <div class="col-md-11" style="padding-top: 1%;">
                 
                 <div class="row">
-                    <div style="padding-left: 2%;" class="col-md-1" class="list-group-item"><a class="btn btn-secondary" href="{% url 'home' %}?category=Sports">Sports</a></div>                    
-                    <div style="padding-left: 12%;" class="col-md-1" class="list-group-item"><a class="btn btn-success" href="{% url 'home' %}?category=health">Health</a></div>
-                    <div style="padding-left: 18%;" class="col-md-2" class="list-group-item"><a class="btn btn-danger" href="{% url 'home' %}?category=Entertainment">Entertainment</a></div>
-                    <div style="padding-left: 20%;" class="col-md-1" class="list-group-item"><a class="btn btn-secondary" href="{% url 'home' %}?category=technology">Technology</a></div>
-                    <div style="padding-left: 18%;" class="col-md-1" class="list-group-item"><a class="btn btn-primary" href="{% url 'home' %}?category=Science">Science</a></div>
-                    <div style="padding-left: 16%;" class="col-md-1" class="list-group-item"><a class="btn btn-info" href="{% url 'home' %}?category=Business">Business</a></div>
+
+<div style="padding-left: 2%;" class="col-md-1" class="list-group-item">  
+<img src="{{weather.icon}}"> </img>
+</div>
+<div style="padding-top: 0.5%;padding-left: 1%;color:white; " class="col-md-1" class="list-group-item"> {{weather.Name}}   </div>
+<div style="padding-top: 0.5%;color:white;" class="col-md-1" class="list-group-item"> {{weather.temp}} </div>
+<div style="padding-top: 0.5%;color:white;" class="col-md-1" class="list-group-item"> {{weather.description}} </div>
+  
+                    <div style="padding-top: 0.5%;padding-left: 1%;" class="col-md-1" class="list-group-item"><a class="btn btn-secondary" href="{% url 'home' %}?category=Sports">Sports</a></div>                    
+                    <div style="padding-top: 0.5%;padding-left: 3%;" class="col-md-1" class="list-group-item"><a class="btn btn-success" href="{% url 'home' %}?category=health">Health</a></div>
+                    <div style="padding-top: 0.5%;padding-left: 6%;" class="col-md-1" class="list-group-item"><a class="btn btn-info" href="{% url 'home' %}?category=Business">Business</a></div>
+                    <div style="padding-top: 0.5%;padding-left: 10%;" class="col-md-1" class="list-group-item"><a class="btn btn-secondary" href="{% url 'home' %}?category=technology">Technology</a></div>
+                    <div style="padding-top: 0.5%;padding-left: 12%;" class="col-md-1" class="list-group-item"><a class="btn btn-primary" href="{% url 'home' %}?category=Science">Science</a></div>
+                    <div style="padding-top: 0.5%;padding-left: 10%;" class="col-md-2" class="list-group-item"><a class="btn btn-danger" href="{% url 'home' %}?category=Entertainment">Entertainment</a></div>
+
                 </div>
 </div>
 </div>
-  <br><br>
-    <div class="container">
+  <br>
+<div class="container">
         <div class="row">
                 {% for i in articles %}
                     <div class="col-md-6">
@@ -47,6 +55,5 @@
         </div>
     </div>
 
-    
 </body>
 </html>

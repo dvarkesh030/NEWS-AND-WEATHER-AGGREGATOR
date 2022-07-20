@@ -37,6 +37,3 @@ and then simply go to http://127.0.0.1:8000/
 
 
 ## Authors
-
-- [@Dvarkesh Gupta](https://www.github.com/dvarkesh030)
-- [@Vandana Mandloi](https://www.github.com/)
