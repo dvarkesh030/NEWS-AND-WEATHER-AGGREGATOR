@@ -2,7 +2,7 @@ from django.shortcuts import render
 import requests
 API_KEY_NEWS = 'd0b69496c18e463f888a273cb521ea9f'
 API_KEY_WEATHER='aaba2d7cd73f453ca14144033222906'
-CITY='WARANGAL'
+CITY='TIRUCHIRAPPALLI'
 CAT = 'Technology'
 CAN = 'in'
 
