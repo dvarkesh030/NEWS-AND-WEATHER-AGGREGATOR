@@ -1,7 +1,7 @@
 
-# News aggregator
+# NEWS AND WEATHER AGGREGATOR
 
-A web application which aggregates data from multiple websites. and shows the news articles in a single platform.
+A news and weather aggregator is a system that takes news from several resources and put them all together so that one can get all the news in a single platform. It also includes weather details of various cities.
 
 ## How to run
 
@@ -33,7 +33,9 @@ and then simply go to http://127.0.0.1:8000/
 
 ## API
 
-- News API
+- News and Weather API
 
 
 ## Authors
+dvarkesh gupta
+diksha jain
