@@ -1,7 +1,7 @@
 
 # NEWS AND WEATHER AGGREGATOR
 
-A news and weather aggregator is a system that takes news from several resources and put them all together so that one can get all the news in a single platform. It also includes weather details of various cities.
+A news and weather aggregator is a system that takes news from several resources and put them all together so that one can get all the news in a single platform. It also includes weather details of that city.
 
 ## How to run
 
