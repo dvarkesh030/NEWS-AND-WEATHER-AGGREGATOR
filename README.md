@@ -38,4 +38,3 @@ and then simply go to http://127.0.0.1:8000/
 
 ## Authors
 dvarkesh gupta
-diksha jain
