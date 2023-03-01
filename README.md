@@ -33,7 +33,7 @@ and then simply go to http://127.0.0.1:8000/
 
 ## API
 
-- News and Weather API
+- News, Weather and chatGPT API
 
 
 ## Authors
